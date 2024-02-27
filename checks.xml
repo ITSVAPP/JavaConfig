@@ -170,7 +170,7 @@
 
     <!-- PackageName: パッケージ名の命名規則を強制する -->
     <module name="PackageName">
-      <property name="format" value="^[a-z]+(\.[a-z][a-z0-9]*)*$" />
+      <property name="format" value="^[a-zA-Z_]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$" />
       <message key="name.invalidPattern" value="Package name ''{0}'' must match pattern ''{1}''." />
     </module>
     <module name="TypeName">
@@ -309,6 +309,10 @@
       <property name="format" value="(TODO)|(FIXME)" />
       <message key="todo.match" value="TODOコメントが残っています。削除してください。" />
     </module>
+
+    <!-- 不要なセミコロンを禁止-->
+    <module name="UnnecessarySemicolonAfterOuterTypeDeclaration" />
+    <module name="UnnecessarySemicolonAfterTypeMemberDeclaration" />
 
   </module>
   <module name="SuppressWarningsFilter" />
