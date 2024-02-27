@@ -299,13 +299,14 @@
       <property name="basicOffset" value="1" />
       <property name="caseIndent" value="1" />
       <property name="throwsIndent" value="1" />
-      <property name="arrayInitIndent" value="1" />
+      <property name="lineWrappingIndentation" value="1" />
     </module>
 
-    <!-- TODOコメントを禁止する -->
+    <!-- TODOコメントを禁止する-->
     <module name="TodoComment">
-      <property name="format" value="TODO" />
+      <property name="format" value="(TODO)|(FIXME)" />
     </module>
+
   </module>
   <module name="SuppressWarningsFilter" />
   <module name="BeforeExecutionExclusionFileFilter">
