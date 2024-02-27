@@ -300,7 +300,6 @@
       <property name="caseIndent" value="1" />
       <property name="throwsIndent" value="1" />
       <property name="arrayInitIndent" value="1" />
-      <property name="lineWrappingIndentation" value="1" />
     </module>
 
     <!-- TODOコメントを禁止する -->
