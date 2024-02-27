@@ -1,0 +1,1 @@
+# CheckStyle用のリポジトリー
