@@ -168,7 +168,7 @@
       <property name="tokens" value="METHOD_REF" />
     </module>
 
-    <!-- PackageName: パッケージ名の命名規則を強制する -->
+    <!-- PackageName: 各種命名規則を強制する -->
     <module name="PackageName">
       <property name="format" value="^[a-zA-Z_]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$" />
       <message key="name.invalidPattern" value="Package name ''{0}'' must match pattern ''{1}''." />
@@ -186,8 +186,7 @@
       <property name="format" value="^[a-z]([a-z0-9][a-zA-Z0-9]*)?$" />
       <message key="name.invalidPattern" value="パラメーター名 ''{0}'' がコーディング規約に一致していません。" />
     </module>
-    <module name="
-        LambdaParameterName">
+    <module name="LambdaParameterName">
       <property name=" format" value=" ^[a-z]([a-z0-9][a-zA-Z0-9]*)?$" />
       <message key="name.invalidPattern"
         value="Lambda parameter name ''{0}'' must match pattern ''{1}''." />
