@@ -187,9 +187,9 @@
       <message key="name.invalidPattern" value="パラメーター名 ''{0}'' がコーディング規約に一致していません。" />
     </module>
     <module name="LambdaParameterName">
-      <property name=" format" value=" ^[a-z]([a-z0-9][a-zA-Z0-9]*)?$" />
+      <property name="format" value="^[a-z]([a-zA-Z]+)*$" />
       <message key="name.invalidPattern"
-        value="Lambda parameter name ''{0}'' must match pattern ''{1}''." />
+        value="ラムダ変数 ''{0}'' がコーディング規約に一致していません。" />
     </module>
     <module name="CatchParameterName">
       <property name="format" value="^[a-z]([a-z0-9][a-zA-Z0-9]*)?$" />
