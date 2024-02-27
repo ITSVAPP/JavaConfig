@@ -302,6 +302,11 @@
       <property name="arrayInitIndent" value="1" />
       <property name="lineWrappingIndentation" value="1" />
     </module>
+
+    <!-- TODOコメントを禁止する -->
+    <module name="TodoComment">
+      <property name="format" value="TODO" />
+    </module>
   </module>
   <module name="SuppressWarningsFilter" />
   <module name="BeforeExecutionExclusionFileFilter">
