@@ -297,11 +297,12 @@
       <property name="influenceFormat" value="1" />
     </module>
     <module name="Indentation">
+      <property name="forceStrictCondition" value="false" />
+      <property name="arrayInitIndent" value="1" />
       <property name="basicOffset" value="1" />
       <property name="caseIndent" value="1" />
       <property name="throwsIndent" value="1" />
       <property name="lineWrappingIndentation" value="1" />
-      <property name="forceStrictCondition" value="false" />
     </module>
 
     <!-- TODOコメントを禁止する-->
