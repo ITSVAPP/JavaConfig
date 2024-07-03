@@ -312,6 +312,16 @@
     <module name="UnnecessarySemicolonAfterTypeMemberDeclaration" />
     <module name="EmptyStatement" />
 
+    <!-- アクセス修飾子モジュールの追加 -->
+    <module name="VisibilityModifier">
+      <!-- protected以上 -->
+      <property name="scope" value="protected" />
+      <!-- アクセス修飾子が必要 -->
+      <property name="requireExplicitVisibility" value="true" />
+      <!-- static finalは例外 -->
+      <property name="allowPublicImmutableFields" value="true" />
+    </module>
+
   </module>
   <module name="SuppressWarningsFilter" />
   <module name="BeforeExecutionExclusionFileFilter">
@@ -322,4 +332,5 @@
     <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://" />
     <property name="max" value="200" />
   </module>
+
 </module>
