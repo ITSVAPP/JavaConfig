@@ -312,16 +312,14 @@
     <module name="UnnecessarySemicolonAfterTypeMemberDeclaration" />
     <module name="EmptyStatement" />
 
-    <!-- アクセス修飾子モジュールの追加 -->
+    <!-- アクセス修飾子モジュールの追加（検討要素）
     <module name="VisibilityModifier">
-      <!-- protected以上 -->
       <property name="protectedAllowed" value="true" />
-      <!-- アクセス修飾子が必要 -->
       <property name="requireExplicitVisibility" value="true" />
-      <!-- static finalは例外 -->
       <property name="allowPublicFinalFields" value="true" />
       <property name="allowPublicImmutableFields" value="true" />
     </module>
+     -->
 
   </module>
   <module name="SuppressWarningsFilter" />
