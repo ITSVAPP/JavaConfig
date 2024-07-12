@@ -330,4 +330,9 @@
     <property name="max" value="200" />
   </module>
 
+  <!-- BeforeExecutionExclusionFileFilterを追加 -->
+  <module name="BeforeExecutionExclusionFileFilter">
+    <!-- テストフォルダーを対象外に -->
+    <property name="fileNamePattern" value=".*[\\/]test[\\/].*\.java$" />
+  </module>
 </module>
